@@ -27,7 +27,7 @@ def mega_uploader(update, context) :
         #downloading file
         file_id = update.message.document.file_id  #getting file id
         newFile = bot.get_file(file_id)
-        print(newFile)
+        # print(newFile)
         fileName = update.message.document.file_name   #getting filename
         
         newFile.download()
@@ -43,11 +43,7 @@ def mega_uploader(update, context) :
         #login credintials...
         m = mega.login(email, password)
 
-        # folder = m.find('ppr.csv')   #search a required folder
-        # print(folder)
-        # if folder:
-            # m.delete(folder[0])  #deleting existing file
-            # m.destroy(folder[0])  #deleting from trash the previous file
+       
         if "TH" in fileName:
             folder = m.find('The Hindu')
             m.upload(fileName, folder[0])   #upload a required file to a destination folder
