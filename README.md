@@ -11,10 +11,10 @@ Obtain your own api id: https://core.telegram.org/api/obtaining_api_id
 # Usage
 
 **METHOD 1:** Rename file `.envs` to `.env` and add required values into it.<br />
-Example:<br />
+`Example:<br />
   EMAIL:'youremailid'<br />
   PASSWORD:'YOUR_MEGAdrive_PASSWORD'<br />
-  TOKEN:'your BOT TOKEN'<br />
+  TOKEN:'your BOT TOKEN'<br />`
 ## or
 **METHOD 2:** Add these values to your config variable sections settings in HEROKU/AWS/AZURE cloud platform:
 
