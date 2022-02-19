@@ -10,14 +10,18 @@ Obtain your own api id: https://core.telegram.org/api/obtaining_api_id
 
 # Usage
 
-METHOD 1:Rename file `.envs` to `.env` and add required values into it or
-
-METHOD 2: add these values to your config variable sections settings in HEROKU/AWS/AZURE cloud platform:
+METHOD 1:Rename file `.envs` to `.env` and add required values into it.
+Example:
+  `EMAIL:'youremailid'
+  PASSWORD:'YOUR_MEGAdrive_PASSWORD'
+  TOKEN:'your BOT TOKEN'`
+##or
+METHOD 2: Add these values to your config variable sections settings in HEROKU/AWS/AZURE cloud platform:
 
 | Environment Variable     | Command Line argument | Description                                                  
 |--------------------------|:-----------------------:|---------------------------------------------------------------|
-| `EMAIL`                    | `EMAIL`               | EMAIL for MEGA DRIVE                | 
-| `PASSWORD`                 | `PASSWORD`            | PASSWORD  for MEGA DRIVE                |
-| `TOKEN`                    | `--your BOT TOKEN`      | Get from telegram @botfather |                              |
+| `EMAIL`                    | `YOUR_MEGAdrive_EMAIL`               | EMAIL for MEGA DRIVE                | 
+| `PASSWORD`                 | `YOUR_MEGAdrive_PASSWORD`            | PASSWORD  for MEGA DRIVE                |
+| `TOKEN`                    | `your BOT TOKEN`      | Get from telegram @botfather |                              |
 
 
